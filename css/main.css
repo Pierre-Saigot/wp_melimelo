@@ -1,0 +1,102 @@
+/*Importation de font*/
+
+@font-face{
+	src:url("../font/Cookies.ttf");
+	font-family:'Cookies'
+}
+
+/*Stylisation du Body*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family:'Cookies';	
+	overflow: hidden;
+}
+
+.bg_img{
+	background: url('../assets/background.png') 0 0 no-repeat;
+}
+
+<<<<<<< HEAD
+.touche{
+	display: block;
+	margin-top: -40%;
+	width: 26%
+}
+
+=======
+>>>>>>> origin/master
+/*Class Bouton*/
+.btn{
+	padding:20px 30px;
+	border:1px solid #FFF;
+}
+
+.record{
+	text-align: center;
+	margin-top: -23%;
+	font-size: 2.5em;
+	color:#FFF;
+	margin-bottom: 18%;
+}
+
+.dispnone{
+	display:none;
+}
+
+#menu{
+	transition: all 0.3s;
+}
+
+/*Stylisation du header*/
+header h1{
+	font-size:5em;
+	margin-top: 2%;
+	margin-bottom: 38%;
+	color: #FFF;
+}
+header i{
+	float: right;
+    	position: relative;
+    	margin-right: 4%;
+    	margin-top: -10%;
+    	color: #FFF;
+}
+/*Stylisation de .lien*/
+a{
+	text-decoration: none;
+	color: #FFF;
+	margin-right:1em;
+	margin-left: 4%;
+	font-size:2.8em	
+}
+
+<<<<<<< HEAD
+#credit{
+	width: 100%;
+	padding: 200px;
+	margin-top: -50%;
+	background: rgba(0,0,0, 0.86);
+}
+
+#return{
+	margin-left: 81%;
+	color: #FFF;
+	display: block;
+	position: fixed;
+	margin-top: -36%;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+#return:hover{
+	opacity: 0.8;
+}
+
+.credit-img{
+	margin-top: -3%;
+	width: 44%;	
+	margin-left: 8%;
+}
+=======
+>>>>>>> origin/master
